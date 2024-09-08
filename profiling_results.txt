@@ -1,0 +1,225 @@
+         2227 function calls in 0.007 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        4    0.000    0.000    0.007    0.002 C:\DATA\Python\BPLA_OZ\fc_server.py:87(process_client_data)
+       14    0.000    0.000    0.003    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:2140(info)
+       14    0.000    0.000    0.003    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1479(info)
+       14    0.000    0.000    0.003    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1610(_log)
+        6    0.000    0.000    0.002    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\websockets\legacy\protocol.py:576(send)
+        6    0.000    0.000    0.002    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\websockets\legacy\protocol.py:1192(write_frame)
+        6    0.000    0.000    0.002    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\websockets\legacy\protocol.py:1167(write_frame_sync)
+        6    0.000    0.000    0.002    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\websockets\legacy\framing.py:120(write)
+        4    0.000    0.000    0.001    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\async_timeout\__init__.py:113(__enter__)
+        3    0.000    0.000    0.001    0.000 C:\DATA\Python\BPLA_OZ\fc_server.py:59(notify_users)
+       14    0.000    0.000    0.001    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1595(makeRecord)
+       14    0.000    0.000    0.001    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:292(__init__)
+       14    0.000    0.000    0.001    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1636(handle)
+        4    0.000    0.000    0.001    0.000 {built-in method _warnings.warn}
+        3    0.000    0.000    0.001    0.000 C:\DATA\Python\BPLA_OZ\fc_server.py:36(create_jwt_token)
+       14    0.000    0.000    0.001    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1690(callHandlers)
+        1    0.000    0.000    0.001    0.001 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\warnings.py:96(_showwarnmsg)
+        3    0.000    0.000    0.001    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\jwt\api_jwt.py:45(encode)
+        1    0.000    0.000    0.001    0.001 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\warnings.py:20(_showwarnmsg_impl)
+       14    0.000    0.000    0.001    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:965(handle)
+        6    0.000    0.000    0.001    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:337(write)
+        1    0.000    0.000    0.001    0.001 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\warnings.py:117(_formatwarnmsg)
+        1    0.000    0.000    0.001    0.001 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\warnings.py:35(_formatwarnmsg_impl)
+        1    0.000    0.000    0.001    0.001 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\linecache.py:26(getline)
+        1    0.000    0.000    0.001    0.001 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\linecache.py:36(getlines)
+        4    0.000    0.000    0.001    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:375(_loop_writing)
+        6    0.000    0.000    0.001    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\websockets\frames.py:280(serialize)
+        1    0.000    0.000    0.001    0.001 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\linecache.py:80(updatecache)
+       14    0.000    0.000    0.001    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1098(emit)
+       14    0.000    0.000    0.001    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1561(findCaller)
+        4    0.000    0.000    0.001    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:562(send)
+        6    0.000    0.000    0.001    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\websockets\extensions\permessage_deflate.py:142(encode)
+        3    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\jwt\api_jws.py:104(encode)
+       56    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:194(_is_internal_frame)
+        4    0.000    0.000    0.000    0.000 {method 'WSASend' of '_overlapped.Overlapped' objects}
+       14    0.000    0.000    0.000    0.000 <frozen ntpath>:242(basename)
+       14    0.000    0.000    0.000    0.000 <frozen ntpath>:208(split)
+       56    0.000    0.000    0.000    0.000 <frozen ntpath>:51(normcase)
+       12    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\dataclasses.py:1453(replace)
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:942(format)
+        1    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\tokenize.py:392(open)
+        1    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:674(format)
+       15    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+        4    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\async_timeout\__init__.py:216(_do_enter)
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py:183(dumps)
+        3    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\jwt\algorithms.py:307(sign)
+       14    0.000    0.000    0.000    0.000 <frozen ntpath>:231(splitext)
+        4    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\async_timeout\__init__.py:200(_reschedule)
+        3    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\jwt\api_jwt.py:83(_encode_payload)
+        6    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\websockets\legacy\protocol.py:1177(drain)
+        6    0.000    0.000    0.000    0.000 {method 'flush' of 'zlib.Compress' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\hmac.py:167(new)
+        1    0.000    0.000    0.000    0.000 {built-in method nt.stat}
+       14    0.000    0.000    0.000    0.000 <frozen genericpath>:121(_splitext)
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1087(flush)
+        3    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\hmac.py:38(__init__)
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py:183(encode)
+        4    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:757(_register)
+        2    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\fc_server.py:191(notify_observers)
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        4    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\async_timeout\__init__.py:32(timeout)
+        4    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:733(call_at)
+        3    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\hmac.py:66(_init_hmac)
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:658(formatMessage)
+        3    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:366(create_task)
+       14    0.000    0.000    0.000    0.000 <frozen ntpath>:154(splitdrive)
+       56    0.000    0.000    0.000    0.000 {built-in method _winapi.LCMapStringEx}
+        3    0.000    0.000    0.000    0.000 {built-in method _hashlib.hmac_new}
+        4    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\async_timeout\__init__.py:122(__exit__)
+        7    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:751(call_soon)
+        9    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\jwt\utils.py:36(base64url_encode)
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:447(format)
+        3    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:429(create_task)
+        1    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\tokenize.py:299(detect_encoding)
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py:205(iterencode)
+        4    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\async_timeout\__init__.py:222(_do_exit)
+        4    0.000    0.000    0.000    0.000 {method 'add_done_callback' of '_asyncio.Future' objects}
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:440(_format)
+      158    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        4    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\async_timeout\__init__.py:161(_reject)
+        3    0.000    0.000    0.000    0.000 <frozen codecs>:319(decode)
+       28    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:922(acquire)
+        7    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:780(_call_soon)
+        9    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\base64.py:112(urlsafe_b64encode)
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:652(usesTime)
+       11    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:31(__init__)
+        6    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\websockets\legacy\protocol.py:326(_drain)
+        4    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:147(cancel)
+        3    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+        3    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\jwt\algorithms.py:255(prepare_key)
+        4    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:103(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\tokenize.py:323(read_or_stop)
+        4    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\async_timeout\__init__.py:100(__init__)
+        6    0.000    0.000    0.000    0.000 {method 'compress' of 'zlib.Compress' objects}
+        1    0.000    0.000    0.000    0.000 {method 'readline' of '_io.BufferedReader' objects}
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1734(isEnabledFor)
+        6    0.000    0.000    0.000    0.000 {method 'utctimetuple' of 'datetime.datetime' objects}
+       28    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:929(release)
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\calendar.py:653(timegm)
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:432(usesTime)
+       70    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\hmac.py:151(digest)
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\locks.py:14(__aenter__)
+        4    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:35(current_task)
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\enum.py:686(__call__)
+       42    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:54(__init__)
+        6    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\websockets\legacy\framing.py:24(new_frame)
+       98    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:164(<lambda>)
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        6    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\websockets\legacy\protocol.py:912(ensure_open)
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\locks.py:20(__aexit__)
+        4    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:570(finish_send)
+        9    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\base64.py:51(b64encode)
+       18    0.000    0.000    0.000    0.000 <string>:2(__init__)
+        4    0.000    0.000    0.000    0.000 {built-in method _heapq.heappush}
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:123(getLevelName)
+       28    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:815(filter)
+       12    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\dataclasses.py:1251(_is_dataclass_instance)
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\threading.py:1446(current_thread)
+       40    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       29    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        3    0.000    0.000    0.000    0.000 {method 'digest' of '_hashlib.HMAC' objects}
+       72    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:368(getMessage)
+        6    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        4    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:747(_register_with_iocp)
+       14    0.000    0.000    0.000    0.000 <frozen ntpath>:35(_get_bothseps)
+       41    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\async_timeout\__init__.py:179(update)
+        6    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\websockets\frames.py:357(prepare_data)
+       51    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\locks.py:125(release)
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        6    0.000    0.000    0.000    0.000 {built-in method now}
+       14    0.000    0.000    0.000    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py:105(__init__)
+        3    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\jwt\utils.py:129(is_pem_format)
+        8    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:700(time)
+        4    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:91(set_result)
+       11    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py:85(add)
+       14    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\websockets\legacy\protocol.py:314(_drain_helper)
+       15    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:64(cancel)
+       14    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\threading.py:1145(name)
+        9    0.000    0.000    0.000    0.000 {built-in method binascii.b2a_base64}
+        1    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\tokenize.py:329(find_cookie)
+        5    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:119(__lt__)
+        6    0.000    0.000    0.000    0.000 {built-in method _struct.pack}
+       28    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        3    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\jwt\utils.py:144(is_ssh_key)
+        6    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\websockets\frames.py:339(check)
+        2    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\transports.py:277(_maybe_pause_protocol)
+       14    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+       22    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:1940(get_debug)
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\locks.py:93(acquire)
+        4    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py:75(__contains__)
+        6    0.000    0.000    0.000    0.000 {method 'endswith' of 'bytes' objects}
+       14    0.000    0.000    0.000    0.000 {built-in method time.time}
+       14    0.000    0.000    0.000    0.000 {built-in method nt.getpid}
+       12    0.000    0.000    0.000    0.000 {method 'write' of '_io.BytesIO' objects}
+       29    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+       14    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:517(_check_closed)
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\enum.py:1091(__new__)
+        3    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\jwt\utils.py:16(force_bytes)
+        9    0.000    0.000    0.000    0.000 {method 'replace' of 'bytes' objects}
+       11    0.000    0.000    0.000    0.000 {built-in method _asyncio.get_running_loop}
+        1    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\warnings.py:403(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+        4    0.000    0.000    0.000    0.000 {method 'startswith' of 'bytes' objects}
+        4    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {method 'search' of 're.Pattern' objects}
+        9    0.000    0.000    0.000    0.000 {method 'translate' of 'bytes' objects}
+        4    0.000    0.000    0.000    0.000 {method 'getresult' of '_overlapped.Overlapped' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFBAB518F90}
+        4    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:1840(_timer_handle_cancelled)
+        1    0.000    0.000    0.000    0.000 <frozen codecs>:309(__init__)
+       14    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:228(_acquireLock)
+        6    0.000    0.000    0.000    0.000 {method 'join' of 'bytes' objects}
+        2    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\fc_server.py:188(add_observer)
+        2    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:174(get_write_buffer_size)
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\locks.py:142(_wake_up_first)
+        3    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\venv\Lib\site-packages\jwt\api_jws.py:87(get_algorithm_by_name)
+       11    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:428(_check_closed)
+        6    0.000    0.000    0.000    0.000 {method 'getvalue' of '_io.BytesIO' objects}
+        4    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+        2    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\fc_server.py:62(<dictcomp>)
+        8    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py:443(exception)
+        6    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:100(is_closing)
+        4    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        3    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        7    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method _contextvars.copy_context}
+       10    0.000    0.000    0.000    0.000 {method 'done' of '_asyncio.Future' objects}
+        2    0.000    0.000    0.000    0.000 C:\DATA\Python\BPLA_OZ\fc_server.py:176(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:237(_releaseLock)
+        4    0.000    0.000    0.000    0.000 {function _OverlappedFuture.set_result at 0x0000025ED1DF6F20}
+        3    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\hmac.py:139(_current)
+        6    0.000    0.000    0.000    0.000 {method 'toordinal' of 'datetime.date' objects}
+        6    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+        3    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        6    0.000    0.000    0.000    0.000 {method 'done' of '_asyncio.Task' objects}
+        1    0.000    0.000    0.000    0.000 <frozen codecs>:260(__init__)
+        3    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:65(_set_task_name)
+        1    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1720(getEffectiveLevel)
+        1    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Даниил\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1319(disable)
+
+
